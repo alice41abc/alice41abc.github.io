@@ -57,21 +57,21 @@ header .banner {
 header .banner-text {
    width: 100%;
    font: 70px/1.4em 'opensans-bold', sans-serif;
-   color: rgb(235, 228, 228);
+   color: rgb(255, 255, 255);
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 3px rgba(53, 50, 50, 0.8);
 }
 header .banner-text h3 {
-   font: 28px/1.9em 'librebaskerville-regular', serif;
-   color: rgb(224, 236, 108);
-   margin: 0 auto;
+   font: 20px/1.9em 'librebaskerville-regular', serif;
+   color: rgb(58, 54, 54);
+   margin: auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 
 /* header social links */
 header .social {
-   margin: 24px 0;
+   margin: 10px 0;
    padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
@@ -82,7 +82,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: rgb(237, 240, 86); }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -175,7 +175,7 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    background: #2B2B2B;
-   padding-top: 96px;
+   padding-top: 90px;
    padding-bottom: 66px;
    overflow: hidden;
 }
@@ -591,12 +591,7 @@ ul#nav li.current a { color: #F06000; }
    color: #636363;
    font-size: 17px;
 }
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
+
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
