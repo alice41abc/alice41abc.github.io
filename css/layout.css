@@ -119,7 +119,6 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* nav-wrap */
 #nav-wrap {
    font: 16px/1.5em 'indie', sans-serif;
-   font-weight: 500;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -134,14 +133,14 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 
-#nav-wrap ul {
+ul#nav {
    min-height: 48px;
    width: auto;
 
    /* center align the menu */
    text-align: center;
 }
-#nav-wrap ul li {
+ul#nav li {
    position: relative;
    list-style: none;
    height: 48px;
@@ -149,7 +148,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 
 /* Links */
-#nav-wrap ul li a {
+ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
@@ -167,9 +166,8 @@ header .scrolldown a:hover { color: #11ABB0; }
 	transition: color .2s ease-in-out;
 }
 
-#nav-wrap ul li a:active { background-color: transparent !important; }
-#nav-wrap ul li.current a { color: rgb(25, 74, 182); }
-
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #F06000; }
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
