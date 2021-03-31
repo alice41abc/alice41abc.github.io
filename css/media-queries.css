@@ -57,10 +57,10 @@
    #about .contact-details { width: 50%; }
 
 
-   /* Resume Section
+   /* me Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }
+   #me h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #me .main-col { padding-right: 5%; }
 
 
     /* Call to Action Section
@@ -199,16 +199,16 @@
    #about .main-col { padding-right: 30px; }
 
 
-   /* Resume Section
+   /* me Section
    --------------------------------------------------------------------- */
-   #resume .header-col {
+   #me .header-col {
       padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
    }
-   #resume h1 { letter-spacing: 3px; }
-   #resume .main-col { padding-right: 30px; }
-   #resume h3, #resume .info { text-align: center; }
+   #me h1 { letter-spacing: 3px; }
+   #me .main-col { padding-right: 30px; }
+   #me h3, #me .info { text-align: center; }
 
    .bars { width: 100%; }
 

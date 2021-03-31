@@ -106,7 +106,7 @@
 
 /*
  * Libre Baskerville
-================================================================================ */   
+================================================================================ */
 @font-face {
     font-family: 'librebaskerville-bold';
     src: url('fonts/librebaskerville/librebaskerville-bold-webfont.eot');
@@ -155,3 +155,33 @@
    }
 
 }
+
+@font-face {
+    font-family: 'nexa-extra-bold';
+    src: url('fonts/nexa/Inter-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'indie';
+    src: url('fonts/Indie/IndieFlower-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'lato-bold-italic';
+    src: url('fonts/lato/Lato-BoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'stick-regular';
+    src: url('fonts/stick/Stick-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
