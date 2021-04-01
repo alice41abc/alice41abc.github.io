@@ -1,11 +1,4 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
-   TOC:
    a. General Styles
    b. Header Styles
    c. About Section
@@ -13,9 +6,6 @@
    e. Portfolio Section
    f. Call To Action Section
    i. Footer
-
-===================================================================== */
-
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
@@ -83,7 +73,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: rgb(237, 240, 86); }
+header .social li a:hover { color: rgb(253, 255, 125); }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -246,6 +236,8 @@ ul#nav li.current a { color: rgb(81, 121, 209); }
 }
 
 #me .description {
+   border: 2px rgb(221, 152, 61);
+   border-style: solid;
    margin-bottom: 100px;
 }
 
@@ -472,58 +464,6 @@ ul#nav li.current a { color: rgb(81, 121, 209); }
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
-}
-
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-#call-to-action {
-   background: #212121;
-   padding-top: 66px;
-   padding-bottom: 48px;
-}
-#call-to-action h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#call-to-action h1 span { display: none; }
-#call-to-action .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0ac";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-#call-to-action .action {
-   margin-top: 12px;
-}
-#call-to-action h2 {
-   font: 28px/36px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
-#call-to-action h2 a {
-   color: inherit;
-}
-#call-to-action p {
-   color: #636363;
-   font-size: 17px;
-}
-
-#call-to-action .button:hover,
-#call-to-action .button:active {
-   background: #FFFFFF;
-   color: #0D0D0D;
-}
-#call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif;
-	color: #D8D8D8;
 }
 
 /* Suggested container for slide animation setups. Can replace this with your own */

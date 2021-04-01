@@ -25,18 +25,22 @@
         "description":""
       }
     ],
+    "skills1":["Python", "Node.js", "Concourse","APIgee"],
+    "skills2":["Python", "React", "Javascript"],
     "work":[
       {
         "company":"Manulife Financial Corporation",
         "title":"Platform Reliability Engineer",
-        "years":"January 2021 - April 2020",
-        "description":"Python Node.js Javascript Concourse APIgee"
+        "years":"January 2021 - April 2020"
       },
       {
         "company":"Raven Telemetry",
         "title":"Full Stack Software Engineer",
         "years":"May 2020 - August 2020",
-        "description":"Python React Javascript"
+        "skills":["Python", "React", "Javascript"]
+      },
+      {
+        "skills2":["Python","Javascript", "React"]
       }
     ]
   },
