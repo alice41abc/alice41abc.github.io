@@ -245,7 +245,7 @@ ul#nav li.current a { color: rgb(81, 121, 209); }
    padding-left: 30px;
    padding-right: 30px;
    transition: transform .2s;
-   color:  #6E7881;
+   color:  rgb(62, 70, 77);
    font: 16px/24px 'opensans-semibold', serif;
 }
 
