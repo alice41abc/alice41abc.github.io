@@ -25,22 +25,18 @@
         "description":""
       }
     ],
-    "skills1":["Python", "Node.js", "Concourse","APIgee"],
-    "skills2":["Python", "React", "Javascript"],
     "work":[
       {
         "company":"Manulife Financial Corporation",
         "title":"Platform Reliability Engineer",
-        "years":"January 2021 - April 2020"
+        "years":"January 2021 - April 2020",
+        "skills":["Python", "Node.js", "Concourse","APIgee"]
       },
       {
         "company":"Raven Telemetry",
         "title":"Full Stack Software Engineer",
         "years":"May 2020 - August 2020",
-        "skills":["Python", "React", "Javascript"]
-      },
-      {
-        "skills2":["Python","Javascript", "React"]
+        "skills":["Python","Javascript", "React"]
       }
     ]
   },
@@ -65,10 +61,10 @@
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"My Website",
+        "category":"A React based personal website",
         "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://alice41abc.github.io/personal-website/"
       }
     ]
   }

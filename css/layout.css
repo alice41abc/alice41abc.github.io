@@ -236,10 +236,26 @@ ul#nav li.current a { color: rgb(81, 121, 209); }
 }
 
 #me .description {
-   border: 2px rgb(221, 152, 61);
+   border: 1.7px rgb(164, 51, 199);
    border-style: solid;
-   margin-bottom: 100px;
+   margin-top: 10px;
+   margin-bottom: 80px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   transition: transform .2s;
+   color: rgb(0, 0, 0);
+   font: 16px/24px 'opensans-semibold', serif;
 }
+
+#me .description:hover{
+   transform: scale(1.2);
+   color: #fff;
+   border-radius: 30px;
+   background-color: rgb(219, 191, 224);
+}
+
 
 #me .info span {
    margin-right: 5px;
@@ -466,8 +482,13 @@ ul#nav li.current a { color: rgb(81, 121, 209); }
    opacity: 0;
 }
 
-/* Suggested container for slide animation setups. Can replace this with your own */
-.flex-container { zoom: 1; position: relative; }
+.flex-container {
+   zoom: 1;
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   justify-content:space-between;
+}
 
 /* Clearfix for .slides */
 .slides:before,
