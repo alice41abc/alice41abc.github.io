@@ -53,6 +53,12 @@
         "category":"A React based personal website",
         "image":"resume-website.jpg",
         "url":"https://alice41abc.github.io/personal-website/"
+      },
+      {
+        "title":"WLP4 Compiler",
+        "category":"Takes in WLP4 language, scans, parse and compiles it into MIPS Mmchine language",
+        "image":"compiler.jpeg",
+        "url":""
       }
     ]
   }
