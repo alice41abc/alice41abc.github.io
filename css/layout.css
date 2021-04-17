@@ -245,6 +245,7 @@ ul#nav li.current a { color: rgb(81, 121, 209); }
    padding-left: 30px;
    padding-right: 30px;
    transition: transform .5s;
+   border-radius: 30px;
    color:  rgb(62, 70, 77);
    font: 1em 'opensans-italic', serif;
 }
@@ -254,7 +255,6 @@ ul#nav li.current a { color: rgb(81, 121, 209); }
    border: none;
    font: 1em 'opensans-semibold-italic', serif;
    color:  rgb(249, 250, 223);
-   border-radius: 30px;
    background-color: rgb(70, 20, 78);
 }
 
@@ -609,5 +609,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
-
