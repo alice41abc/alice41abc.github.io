@@ -36,18 +36,12 @@
         "company":"Raven Telemetry",
         "title":"Full Stack Software Engineer",
         "years":"May 2020 - August 2020",
-        "skills":["Python","Javascript", "React"]
+        "skills":["Python","Javascript", "React", "Recharts API"]
       }
     ]
   },
   "portfolio":{
     "projects": [
-      {
-        "title":"Good News",
-        "category":"Website that shows the most recent and popular Good News",
-        "image":"good-news.png",
-        "url":""
-      },
       {
         "title":"My Website",
         "category":"A React based personal website",
@@ -55,8 +49,14 @@
         "url":"https://alice41abc.github.io/personal-website/"
       },
       {
+        "title":"Good News",
+        "category":"Website that shows the most recent and popular Good News",
+        "image":"good-news.png",
+        "url":""
+      },
+      {
         "title":"WLP4 Compiler",
-        "category":"Takes in WLP4 language, scans, parse and compiles it into MIPS Mmchine language",
+        "category":"Used C++ to take in WLP4 language, scans, parse and compiles it into MIPS Machine language",
         "image":"compiler.jpeg",
         "url":""
       }
